@@ -1,7 +1,10 @@
 # Logs
 logs
+client/logs
 *.log
 npm-debug.log*
+client/*.log
+client/npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -39,7 +42,9 @@ build/Release
 
 # Dependency directories
 node_modules/
+client/node_modules/
 jspm_packages/
+client/jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
@@ -52,6 +57,7 @@ typings/
 
 # Optional eslint cache
 .eslintcache
+client/.eslintcache
 
 # Microbundle cache
 .rpt2_cache/
@@ -71,16 +77,21 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+client/.env
+client/.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+client/.cache
 
 # Next.js build output
 .next
+client/.next
 
 # Nuxt.js build / generate output
 .nuxt
 dist
+client/dist
 
 # Gatsby files
 .cache/
@@ -102,3 +113,5 @@ dist
 
 # TernJS port file
 .tern-port
+client/package-lock.json
+server/package-lock.json
